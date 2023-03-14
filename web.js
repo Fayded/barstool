@@ -10,6 +10,7 @@ const courses = [
   { id: 3, name: "Human Computer Interaction" }
 ];
 
+
 app.get("/", function(req, res) {
   res.send("Hello World");
 });
