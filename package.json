@@ -1,0 +1,21 @@
+{
+  "name": "barstool",
+  "version": "1.0.0",
+  "description": "Barstool Sports Challenge",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web.js"
+  },
+  "keywords": [
+    "Barstool"
+  ],
+  "author": "Kevin Fay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "19.x"
+  }
+}
