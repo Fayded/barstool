@@ -4,7 +4,6 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors())
-
 const courses = [
   { id: 1, name: "Algorithms" },
   { id: 2, name: "Software Engineering" },
