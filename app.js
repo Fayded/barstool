@@ -1,8 +1,9 @@
 const PORT = process.env.PORT || 3000;
 const express = require("express");
+const cors = require('cors');
 const app = express();
 
-app.use(express.json());
+app.use(cors())
 
 const courses = [
   { id: 1, name: "Algorithms" },
